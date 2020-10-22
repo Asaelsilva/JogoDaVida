@@ -8,4 +8,4 @@ As regras que controlam o comportamento do jogo são simples e elegantes:
 
 3. Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva.
 
-4.Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.
+4. Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.
