@@ -1,5 +1,3 @@
-
-
 .espaco{
     display: flex;
 }
@@ -22,7 +20,7 @@ table {
 }
 
 td.morta {
-     background-color: rgb(174, 190, 174);
+     background-color: rgb(174, 190, 190);
      width: 20px;
      height: 20px;
  }
