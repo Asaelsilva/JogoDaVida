@@ -1,6 +1,4 @@
-body {
-    background-color: #f5f8f5;
-}
+
 
 .espaco{
     display: flex;
@@ -12,39 +10,68 @@ h2 {
     color: #2ccaf1f3;
     text-align: center;
 }
-#tabela {
+#cidade {
     padding-bottom: 10px;
 }
 
+table {
+
+    margin: 50px 50px 10px 35px;
+    border: solid 2px #2f52db ;
+    
+}
+
+td.morta {
+     background-color: rgb(174, 190, 174);
+     width: 20px;
+     height: 20px;
+ }
+ td.viva {
+     background-color:#2ccaf1f3; 
+ } 
+
 .regras{
 
-    margin: 0 0 0 10px;
-    height: 290px;
-    border: solid 1px #2f52db ;
+    margin: 0 10px 0 10px;
+    height: 270px;
+    padding: 10px;
+    border: solid 2px #2f52db;
 }
 
 h3 {
     font-variant: small-caps;
     font-size: 21px;
     color: #2ccaf1f3;
-    text-align: center;
+    padding-left: 14px; 
+    color: #2ccaf1f3; 
 }
 
 p{
     padding: 0 25px 0 15px;
     font-size: 17px;
-    text-align: justify;
 
+}
+.comojogar{
+
+    margin: 0 10px 0 10px;
+    height: 270px;
+    padding: 10px;
+    border: solid 2px #2f52db;
+    
 }
 #btniniciarparar {
     background:#2ccaf1f3;
     border-radius:10px;
     border: solid 2px #2f52db ;
     padding: 8px;
-    width: 100px;
-    margin: 15px;
-    left: calc(0vw + 100px/2);
-    top: 650px;
+    width: 220px;
+    margin-left: 15px;
     font-variant: small-caps;
+    top: 1000px;
     font-size: 15px;
+}
+
+.botoes{
+    align-self: flex-end;
+    margin-bottom: 20px;
 }

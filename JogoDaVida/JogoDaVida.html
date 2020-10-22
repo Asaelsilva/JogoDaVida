@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <title>Jogo da vida</title>   
     <link rel="stylesheet" href='JogoDaVida.css'>
+    <script src='JogoDaVida.js'></script>
 </head>
 
 <body>
     <h2>Jogo da vida</h2>
 
     <div class="espaco">
-
-        <div id='tabela'>
-            <!-- Aqui é renderizado a tabeta e suas celuas via JavaScript-->
-        </div>
-    
-        <div class="regras" >
+            
+        <div class="regras">
 
             <div>
                 <h3>Regras do jogo</h3>
@@ -30,30 +27,41 @@
                 
                 <p>4.Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.</p>    
             
-            </div>
+            </div>            
+        </div>
+
+        
+        <div class="comojogar">
+
+            <h4  style="padding-left: 14px ; color: #2ccaf1f3;">Como Jogar?</h4>
 
             <div>
 
-                <h4 >Como Jogar</h4>
+                <p>1 - O tabuleiro é apresentado com 100% das células mortas.</p>
 
-                <div>
+                <p>2 - Clique em cima das células para que a mesma tenha vida.</p>
 
-                    <p>1 - O tabuleiro é apresentado com 100% das células mortas.</p>
-
-                    <p>2 - Clique em cima das células para que a mesma tenha vida.</p>
-
-                    <p>3 - o butão start/stop serve para iniciar ou pausar o jogo.</p>
-                    
-                </div>
-
-                <div class="botoes">
-                    <button title='Iniciar e Parar' id='btniniciarparar' height="50px" class='button'  onclick="iniciarParar()"><strong>Iniciar/Parar</strong></button>    
-                </div>
-            </div>
-            
+                <p>3 - o butão Iniciar/Parar serve para iniciar ou pausar o jogo.</p>
+                
+            </div>                
         </div>
-
     </div>
 
+    <div class="espaco">
+
+        <div id='cidade'>
+            <!-- Aqui é renderizado a tabeta e suas celuas via JavaScript-->
+        </div>
+
+        <div class="botoes">
+
+            <h3 style="color: black;">Vamos jogar?</h4>
+
+            <button title='Iniciar e Parar' id='btniniciarparar' height="50px" class='button' onclick="iniciarParar()"><strong>Iniciar/Parar</strong></button>    
+        </div>
+
+    </div>   
+
 </body>
+
 </html>
